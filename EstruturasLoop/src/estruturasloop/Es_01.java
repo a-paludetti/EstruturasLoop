@@ -23,7 +23,7 @@ public class Es_01 {
         double soma = 0;
 
         for (int i = 0; i <= (n1.length() - 1); i++) {
-            double n2 = Double.parseDouble(n1.substring(i));
+            double n2 = Double.parseDouble(n1.substring(i,(i+1)));
             soma = soma + n2;
         }
 
